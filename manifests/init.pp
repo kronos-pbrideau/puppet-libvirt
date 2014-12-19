@@ -56,6 +56,7 @@ class libvirt (
   $qemu_vnc_listen           = undef,
   $qemu_vnc_sasl             = undef,
   $qemu_vnc_tls              = undef,
+  $qemu_vnc_tls_x509_verify  = undef,
   $qemu_set_process_name     = undef,
   $qemu_user                 = undef,
   $qemu_group                = undef,
